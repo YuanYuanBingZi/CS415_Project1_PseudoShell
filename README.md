@@ -1,6 +1,6 @@
-# Pseudo-Shell: A Custom UNIX-like Command Line Interface
+# UnixLite Shell: A Custom UNIX-like Command Line Interface
 
-Welcome to my Pseudo-Shell project! This project showcases my skills in system-level programming, focusing on the implementation of core Unix-like shell functionalities using Linux system calls. I developed this project as part of an operating systems course, but its primary purpose is to demonstrate my proficiency in building robust, low-level software solutions.
+Welcome to my UnixLite Shell project! This project showcases my skills in system-level programming, focusing on the implementation of core Unix-like shell functionalities using Linux system calls. I developed this project as part of an operating systems course, but its primary purpose is to demonstrate my proficiency in building robust, low-level software solutions.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@ Welcome to my Pseudo-Shell project! This project showcases my skills in system-l
 
 ## Introduction
 
-The Pseudo-Shell is a single-threaded, synchronous command-line interface (CLI) that mimics the behavior of a Unix shell. It supports basic file and directory manipulation commands such as `ls`, `cd`, `cp`, `mv`, `rm`, and `cat`, allowing users to interact with the file system through a text-based interface. This shell also includes advanced features like error handling and command execution in batch mode.
+The UnixLite Shell is a single-threaded, synchronous command-line interface (CLI) that mimics the behavior of a Unix shell. It supports basic file and directory manipulation commands such as `ls`, `cd`, `cp`, `mv`, `rm`, and `cat`, allowing users to interact with the file system through a text-based interface. This shell also includes advanced features like error handling and command execution in batch mode.
 
 ### Purpose
 This project allowed me to deepen my understanding of **operating systems**, particularly the mechanics behind **system calls**, **process management**, and **file I/O**. Through this project, I also honed my skills in **memory management** and **error handling**, ensuring the shell operates reliably under various edge cases.
@@ -77,11 +77,11 @@ make
 ### Running the Shell
 - **Interactive Mode**: 
   ```bash
-  ./pseudo-shell
+  ./unixlite
   ```
 - **File Mode**:
   ```bash
-  ./pseudo-shell -f <filename>
+  ./unixlite -f <filename>
   ```
   Where `<filename>` is the name of the batch file containing commands. Output will be saved in `output.txt`.
 
